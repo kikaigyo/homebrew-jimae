@@ -9,10 +9,10 @@ def php53_installed?
 end
 
 
-class Phpmyadmin3570 < Formula
+class PhpmyadminJimae < Formula
   homepage 'http://www.phpmyadmin.net'
   url 'http://downloads.sourceforge.net/project/phpmyadmin/phpMyAdmin/3.5.7/phpMyAdmin-3.5.7-all-languages.tar.bz2'
-  md5 'e7f4a7b0f86a2f4da4964ccdfa62d040'
+  sha1 'c2bc008778156f0af5b92aa7038b72754162a6c3'
   version '3.5.7'
 
   depends_on 'josegonzalez/php/php53-mcrypt' if php53_installed?
